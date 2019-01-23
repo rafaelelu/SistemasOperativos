@@ -6,7 +6,7 @@ Compilar y correr xv6
 gcc -> compilador\
 git -> compartir el código\
 make  -> automatizar\
-qemu -> para crear la máquina virtual\
+qemu -> para crear la máquina virtual
 
 ## Coneceptos
 Sistema Operativo dos partes: kernel y las aplicaciones de sistema
