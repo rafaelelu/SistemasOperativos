@@ -21,5 +21,8 @@ la aplicación se interrumpe para el kernel se ejecute.
 + Es la forma que el HW interactúa con el CPU. 
 
 ## ¿Qué aprendí?
+Aprendimos todos los pasos que tomar para dar instrucciones al ACPI desde el kernel. Hicimos dos instrucciones: una para apagar y otra para reiniciar.
+
 
 ## URL del commit
+https://github.com/rafaelelu/SistemasOperativos/commit/81a4ef2642a26c4ff8c67b3683d5317073e3fe08
