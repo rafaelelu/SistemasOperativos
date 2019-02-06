@@ -19,3 +19,6 @@ Aprendí cómo hacer una carpeta en Github.\
 Aprendí cómo funciona la aplicación "make" y su archivo "Makefile".\
 Aprendí cómo compilar el xv6 y usar el qemu para tener una máquina virtual dentro de Linux.\
 Aprendí en qué parte del Makefile del xv6 puedo cambiar la cantidad de CPU's, disco duro y memoria para cuando haga la máquina virtual.
+
+## Commit
+https://github.com/rafaelelu/SistemasOperativos/commit/23982027ac2a0eaf31dbce4a17c81c3867102f8f?diff=unified
