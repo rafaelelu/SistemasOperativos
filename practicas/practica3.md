@@ -1,14 +1,14 @@
-#Objetivo
+# Objetivo
 Modificar al programa init para que muestre un programa de bienvenida.
 
-#Herramientas
+# Herramientas
 gcc
 
 make
 
 git
 
-#Conceptos
+# Conceptos
 
 1) Proceso
 
