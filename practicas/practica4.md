@@ -19,6 +19,9 @@ gcc
 + Restaurar el PC y la dirección del nuevo proceso.
 
 ## Qué aprendí
++ Cómo poner prioridades a los procesos.
++ Cómo hacer una llamada a sistema que cambie la prioridad de procesos.
++ Cómo hacer un comando para cambiar la prioridad de los procesos.
 
 ## URL del commit:
 
