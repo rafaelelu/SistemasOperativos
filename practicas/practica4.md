@@ -23,7 +23,8 @@ gcc
 + Cómo hacer una llamada a sistema que cambie la prioridad de procesos.
 + Cómo hacer un comando para cambiar la prioridad de los procesos.
 
-## URL del commit:
+## URLs del commit:
+4-1 https://github.com/rafaelelu/SistemasOperativos/commit/2ad3527d27d3c151e84110c8cf7bce79f7ed788e
 
 ## Cómo se relaciona con los conceptos anteriores
 + Cómo hacer llamadas a sistema
