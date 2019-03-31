@@ -136,6 +136,41 @@ static int (*syscalls[])(void) = {
 [SYS_getpriority] sys_getpriority
 };
 
+
+void
+printsyscall(int num)
+{
+	const char* syscalls[25];
+	syscalls[0] = "fork";
+	syscalls[1] = "exit";
+	syscalls[2] = "wait";
+	syscalls[3] = "pipe";
+	syscalls[4] = "read";
+	syscalls[5] = "kill";
+	syscalls[6] = "exec";
+	syscalls[7] = "fstat";
+	syscalls[8] = "chdir";
+	syscalls[9] = "dup";
+	syscalls[10] = "getpid";
+	syscalls[11] = "sbrk";
+	syscalls[12] = "sleep";
+	syscalls[13] = "uptime";
+	syscalls[14] = "open";
+	syscalls[15] = "write";
+	syscalls[16] = "mknod";
+	syscalls[17] = "unlink";
+	syscalls[18] = "link";
+	syscalls[19] = "mkdir";
+	syscalls[20] = "close";
+	syscalls[21] = "shutdown";
+	syscalls[22] = "reboot";
+	syscalls[23] = "setpriority";
+	syscalls[24] = "getpriority";
+	
+	cprintf("%s -> %d\n", syscalls[num-1], num);
+}
+
+
 void
 syscall(void)
 {
@@ -144,6 +179,7 @@ syscall(void)
 
   num = curproc->tf->eax;
   if(num > 0 && num < NELEM(syscalls) && syscalls[num]) {
+	printsyscall(num);
     curproc->tf->eax = syscalls[num]();
   } else {
     cprintf("%d %s: unknown sys call %d\n",
