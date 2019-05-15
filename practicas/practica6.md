@@ -31,5 +31,8 @@ git
   + Productor/Consumidor: Ocurre cuando los dartos se puedan sobre-escribir
   
 # Url del commit
+https://github.com/rafaelelu/SistemasOperativos/commit/be1785441b1bbbdc486d1056dc830d6b5d7a50b7
 
 # Qué aprendí
++ Cómo es que los procesos e hilos compiten por recursos
++ Cómo resolver problemas comunes entre hilos y procesos con respecto a los recursos que se tienen
