@@ -14,8 +14,8 @@ git
  # Directorios
  + Es un tipo especial de archibo que contiene el nombre de otros archivos y sus referencias.
  
- #URL del commit
-
+ # URL del commit
+https://github.com/rafaelelu/SistemasOperativos/commit/e69d365d8fdd3ddb3a83e9622942cc1e8bcd1a3a
  
  # Que aprendí
 + Cómo funcionan los directorios y sus referencias
